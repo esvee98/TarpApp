@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".signup">
+    <RelativeLayout android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+    <ImageView android:id="@+id/img"
+               android:layout_width="307dp"
+               android:layout_centerHorizontal="true"
+               android:layout_height="226dp"
+               android:src="@drawable/logo_login"
+               android:layout_marginTop="0dp"
+               android:layout_alignParentTop="true"
+               android:minHeight="60dp"/>
+
+    <TextView
+            android:id="@+id/nameTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Name"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_alignStart="@+id/img"
+            android:layout_marginTop="250dp"
+    />
+
+    <EditText
+            android:id="@+id/name"
+            style="@style/Widget.AppCompat.EditText"
+            android:layout_alignStart="@+id/nameTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="290dp"
+            android:layout_marginRight="50dp"
+            android:background="#11000000"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:textSize="16sp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"/>
+    <TextView
+            android:id="@+id/regTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Reg.No"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_alignStart="@+id/name"
+            android:layout_marginTop="350dp"
+    />
+
+    <EditText
+            android:id="@+id/reg"
+            style="@style/Widget.AppCompat.EditText"
+            android:layout_alignStart="@+id/regTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="390dp"
+            android:layout_marginRight="50dp"
+            android:background="#11000000"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:textSize="16sp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+    />
+
+    <TextView
+            android:id="@+id/pwd1Title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Password"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_alignStart="@+id/reg"
+            android:layout_marginTop="450dp"
+    />
+
+    <EditText
+            android:id="@+id/pwd1"
+            style="@style/Widget.AppCompat.EditText"
+            android:layout_alignStart="@+id/pwd1Title"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="490dp"
+            android:layout_marginRight="50dp"
+            android:background="#11000000"
+            android:ems="10"
+            android:inputType="textPassword"
+            android:textSize="16sp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+    />
+
+    <TextView
+            android:id="@+id/pwd2Title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Repeat Password"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_alignStart="@+id/pwd1"
+            android:layout_marginTop="550dp"
+    />
+
+    <EditText
+            android:id="@+id/pwd2"
+            style="@style/Widget.AppCompat.EditText"
+            android:layout_alignStart="@+id/pwd2Title"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="590dp"
+            android:layout_marginRight="50dp"
+            android:background="#11000000"
+            android:ems="10"
+            android:inputType="textPassword"
+            android:textSize="16sp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+    />
+    <Button
+            android:text="SignUp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/signUp"
+            android:layout_marginTop="650dp"
+            android:layout_marginLeft="70dp"
+            android:layout_marginRight="70dp"
+            android:layout_marginBottom="50dp"
+    />
+
+    </RelativeLayout>
+</ScrollView>

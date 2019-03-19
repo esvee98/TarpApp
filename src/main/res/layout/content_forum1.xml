@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        xmlns:tools="http://schemas.android.com/tools"
+        tools:showIn="@layout/activity_forum1"
+        tools:context=".forum1"
+>
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+    >
+        <TextView
+                android:id="@+id/txtTitle1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="37dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:text="no balance - I can't seem to find a balance. I just transitioned again"
+                android:background="#A9A9A9"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+        <TextView
+                android:id="@+id/txtTitle2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:text="Trauma? so my therapist brought up that I may have been given some"
+                android:background="#D3D3D3"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+        <TextView
+                android:id="@+id/txtTitle3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:text="ADHD - I have ADHD and I was wondering if anybody could tell me"
+                android:background="#A9A9A9"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+
+    </LinearLayout>
+</android.support.v4.widget.NestedScrollView>
